@@ -1,0 +1,12 @@
+[package]
+name = "todo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+actix-web = "4"
+actix-cors = "v0.7.0"
+serde = {version = "1.0" ,features=["derive"]}
+uuid = {version ="1.0", features=["serde", "v4"]}
+chrono = {version ="0.4", features=["serde"]}
